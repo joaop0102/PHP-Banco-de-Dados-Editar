@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to right, #020024, #636363, #e7eef0);
+
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo_consultar{
+    background-color: #252525;
+    width: 80px;
+    border-radius: 1000px;
+    padding: 5px;
+
+   margin: auto;
+   margin-top: -35px;
+   margin-bottom: 20px;
+
+    
+}
+h3{
+    color: black;
+    font-weight: bold;
+    
+}
+#tela_dados{
+    background-color: rgba(255, 255, 255, 0.4);
+        width: 500px;
+        height: 250px;
+        padding: 0px 20px;
+        border-radius: 10px
+        
+    }
+
+    #tela_dados2{
+        background-color: rgba(255, 255, 255, 0.4);
+            width: 400px;
+            height: 650px;
+            padding: 0px 20px;
+            border-radius: 10px;
+            
+            
+        }
+ .campo input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+} 
+.campo{
+    position: relative;
+}
+.campo label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(12, 11, 11);
+    font-family: arial;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.campo input:focus~label,
+.campo input:valid~label
+{
+    top: -20px;
+    left: 0;
+    color: gray;
+    font-size: 12px;
+}
+.textinho{
+    font-size: 25px;
+    font-style: italic;
+}
+.ajusteform{
+    background-color: whitesmoke;
+}
